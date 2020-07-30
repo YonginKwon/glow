@@ -30,7 +30,7 @@ update_submodule: &update_submodule
     git submodule update --recursive --init
 
 linux_default: &linux_default
-  resource_class: large
+  resource_class: medium
   machine:
     image: default
   steps:
